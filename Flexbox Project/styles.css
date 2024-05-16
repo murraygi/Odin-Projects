@@ -1,0 +1,14 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.btnContainer {
+    margin: 0 auto;
+}

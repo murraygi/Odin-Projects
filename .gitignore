@@ -1,0 +1,17 @@
+# Ignore build files
+build/
+*.exe
+
+# Ignore Odin compiler cache
+.odin_cache/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore editor settings
+.vscode/
+.idea/
+
+# Ignore node_modules (if you're using Node.js)
+node_modules/

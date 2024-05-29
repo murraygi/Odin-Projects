@@ -6,9 +6,38 @@
 
 .header {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
 
-.btnContainer {
-    margin: 0 auto;
+.textContainer, .imageContainer {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 10px;
 }
+
+.textContainer {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 120px;
+    padding-top: 50px;
+}
+
+.imageContainer {
+    justify-content: flex-center;
+}
+
+textContainer h1, .textContainer p, .textContainer .buttonContainer {
+    margin-top: 20px;
+}
+
+.imageResize {
+    max-width: 100%;
+}
+

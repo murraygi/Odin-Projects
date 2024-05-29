@@ -10,36 +10,62 @@
 
   <body>
     <div class="navBar">
-        <div id="logo">Header Logo</div>
-        <div id="logo">Header Link One</div>
-        <div id="logo">Header Link Two</div>
-        <div id="logo">Header Link Three</div>
+        <img id="logo" class="avoLogo" height= 40px; src="https://cdn.pixabay.com/photo/2012/04/14/13/28/avocado-33935_1280.png" alt="Header Logo"/>
+        <div class="navGroup"> 
+          <a href="#home" class="navLinks"> Home</a>
+          <a href="#about" class="navLinks">About</a>
+          <a href="#shop" class="navLinks">Shop</a>
+        </div>
     </div>
    
     <div class="header">
-        <div class="textContainer">
-            <h1>This website is awesome</h1>
-            <p>This website has some subtext that goes here under the main title.</p>
+        <div class="textContainerMain">
+            <h1>This website is about avocados.</h1>
+            <p>The avocado, alligator pear or avocado pear is a medium-sized, evergreen tree in the laurel family. It is native to the Americas and was first domesticated in Mesoamerica more than 5,000 years ago.</p>
               <div class="buttonContainer">
-              <button class="btnMain">Sign Up</button>
+                <a href="#about" class="btnLink"><button class="btnMain">Learn More</button></a>
               </div>
         </div>
-        <div class="imageContainer">
-            <img class="imageResize" width= 400px; src="https://cdn.pixabay.com/photo/2024/01/09/22/11/avocado-8498520_1280.jpg" alt="Placeholder image" />     
+        <div class="imageContainerMain">
+            <img class="imageHeader" width= 400px; src="https://cdn.pixabay.com/photo/2024/01/09/22/11/avocado-8498520_1280.jpg" alt="Placeholder image"/>     
         </div>
     </div>
 
 
 
     <div class="contentBlockOne">
-
+      <h2>Origin of avocados</h2>
+      <div class="imageBlockCBOne">
+        <div class="cbOneImageContainer">
+          <img id="avoOne" class="avoCBOne" width= 200px; src="https://cdn.pixabay.com/photo/2020/05/04/18/55/avocado-5130214_1280.png" alt="avo orange background"/>
+          <p>1. Seed</p>
+        </div>
+        <div class="cbOneImageContainer">  
+          <img id="avoTwo" class="avoCBOne" width= 200px; src="https://cdn.pixabay.com/photo/2021/01/18/16/02/avocado-5928508_1280.png" alt="avo green background"/>
+          <p>2. Seedling</p>
+        </div>
+        <div class="cbOneImageContainer">
+          <img id="avoThree" class="avoCBOne" width= 200px; src="https://cdn.pixabay.com/photo/2022/03/13/13/20/fruit-7066040_1280.png" alt="avo pink background"/>
+          <p>3. Adult Plant</p>
+        </div>
+        <div class="cbOneImageContainer">
+          <img id="avoFour" class="avoCBOne" width= 200px; src="https://cdn.pixabay.com/photo/2021/11/11/23/17/fruit-6787482_1280.png" alt="avo beige background"/>
+          <p>4. Flower</p>
+        </div>
+      </div>
     </div>
 
     <div class="contentBlockTwo">
-
+      <div id=cbThreeQuote class="cbThreeContent">  
+        <p>...the avocado is a food without rival among the fruits, the veritable fruit of paradise</p>
+      </div>
+      <div id=cbThreeQuoteAuthor class="cbThreeContent"> 
+        <p>-Daniel Fairchild</p>
+      </div>
     </div>
-    <div class="contentBlockThree">
 
+    <div class="contentBlockThree">
+      
     </div>
 	<script src="index.js"></script>
   </body>

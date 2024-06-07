@@ -1,0 +1,49 @@
+body {
+    /* background-image: url("https://pixabay.com/get/g909d04dbf99786531070089c62220a6ba32361626aea7ab4a4fc10559e66590d67b130303afab9ec9fd2a828dd6ec9c663fc043dad0aae3e10ccafe690ed6611_1920.jpg"); */
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 40% 40% 30%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+sideBar {
+    display: flex;
+    align-items: center;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+  /* Form outline */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+
+}
+
+.form-group {
+    display: contents;
+}
+
+form label {
+    grid-column: 1;
+    text-align: right;
+    padding-right: 10px;
+    align-self: center;
+}
+
+form input {
+    grid-column: 2;
+    width: 50%;
+    box-sizing: border-box;
+}
+  
+.form-group.button {
+    grid-column: span 2;
+    text-align: center;
+}

@@ -1,16 +1,22 @@
 body {
-    background-image: url("https://i.imgur.com/vXcvIA8.jpeg");
+    background-image: url("/Sign-up Form/images/13295064_5172658.jpg");
     display: grid;
     grid-template-columns: 25% 75%;
     grid-template-rows: 40% 50% 10%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    color: aliceblue;
+    font-weight: bold;
 }
 
 .sideBar {
     display: flex;
     align-items: center;
     height: 800px;
+}
+
+.mainContent {
+    padding-left: 18rem;
 }
 
 .ctaContent {
@@ -24,10 +30,10 @@ form {
     max-width: 40rem;
     margin: auto;
     padding-top: 2rem;
-  /* Form outline */
-  border: 1px solid #ccc;
-  border-radius: 1em;
-
+    /* Form outline */
+    border: 0.2rem solid #ccc;
+    border-radius: 1em;
+    background-color: #210070;
 }
 
 .form-group {
@@ -42,20 +48,25 @@ form label {
 
 form input {
     margin-right: 6rem;
+    border-radius: 1rem;
 }
-  
-.button {
+
+button {
     grid-column: span 2;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding: 1.5rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    background-color: #7ad9c4;
+    color: #210070;
+    font-size: x-large
 }
 
 footer {
-    grid-row: 4; /* Footer row */
-    grid-column: 1 / span 2; /* Spans both columns */
+    grid-row: 4;
+    /* Footer row */
+    grid-column: 1 / span 2;
+    /* Spans both columns */
     background-color: #f4f4f4;
     text-align: center;
     padding: 10px 0;
+    color: #210070;
 }
